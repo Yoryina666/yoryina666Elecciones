@@ -1,0 +1,138 @@
+﻿body {
+    background-color: #ffdd90;
+    background-image: url("img/depositphotos_161643170-stock-illustration-costa-rican-flag-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    background-attachment: fixed;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+figure{
+    margin-left:45% ;
+}
+
+#ContenidoPrincipal {
+   text-align:center
+}
+
+#videosAudio{
+    text-align:center;
+   
+    
+}
+
+#videosAudio article h3{
+    font-size: 30px;
+    margin-bottom:10px
+   
+}
+
+    #videosAudio #num1,iframe {
+        padding-top:45px
+    }
+
+#videosAudio #num1 video, iframe {
+    float:left;
+}
+
+#videosAudio #num2 {
+    float: left;
+    margin-top:150px;
+   margin-left: -10%;
+   margin-bottom:5%
+}
+
+aside {
+    float: left;
+    margin-top: 0%;
+    text-align:center;
+    width: 100%;
+    background: #ccc;
+    overflow: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+#footer {
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: #100F11;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 700px) {
+    /* For mobile phones: */
+    figure img{
+        width:150px;
+        height:200px;
+        margin-left:auto;
+        margin-right:auto
+    }
+
+   #ContenidoPrincipal, h2 {
+        font-size:medium;
+        
+        
+    }
+    #ContenidoPrincipal  {
+        
+       
+        font-size:medium;
+    }
+
+    #videosAudio #num1 h3 {
+        font-size: 23px;
+    }
+
+    #videosAudio #num2 h3 {
+        font-size: 23px;
+        margin-left:15%;
+        margin-top:-100px;
+    }
+
+    #videosAudio #num2 audio {
+       
+        margin-left:20%;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    /* For mobile phones: */
+
+    #videosAudio #num1 h3 {
+        font-size: 23px;
+        
+    }
+        #videosAudio #num2 h3 {
+        font-size: 23px;
+        margin-left: 10%;
+        margin-top: 10px;
+    }
+
+    #videosAudio #num2 audio {
+        margin-left: 10%;
+    }
+}
+    /*@media screen and (max-width: 812px) {
+         For mobile phones: 
+        #videosAudio #num2 {
+            float: left;
+            margin-top: 150px;
+            margin-left: -10%;
+            margin-bottom: 5%
+        }
+            #videosAudio #num2 h3 {
+                font-size: 23px;
+                margin-left: 15%;
+                margin-top: -100px;
+            }
+
+            #videosAudio #num2 audio {
+                margin-left: 20%;
+            }
+        
+    }*/

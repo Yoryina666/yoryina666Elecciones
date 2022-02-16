@@ -1,0 +1,184 @@
+﻿header {
+    display: block;
+    background: #3C4EBB;
+    padding: 5px;
+    text-align: center;
+    margin-block-end: 80px 
+}
+
+body {
+    background-color: #ffdd90;
+    background-image: url("img/depositphotos_161643170-stock-illustration-costa-rican-flag-background-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    background-attachment: fixed;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#FondoPrincipal table{
+    margin:0 auto;
+    margin-right: 50px;
+   font-size:medium;
+   font-weight:normal;
+   float:left;
+   
+    
+}
+
+ 
+
+    #FondoPrincipal, table caption {
+        font-size: larger;
+        font-weight: bolder;
+    }
+
+
+section {
+    width: 100%;
+    background: #ccc;
+    overflow: auto;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    
+    
+}
+
+
+#num, #opcion {
+    margin-left: 23% ;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+#num, #opcion li {
+    
+    font-size: medium;
+    font-weight: normal;
+}
+
+
+#footer {
+    border-top: double;
+    clear: both;
+    height: 66px;
+    text-align: center;
+    color: #100F11;
+    padding-top: 15px;
+}
+
+@media  screen and (max-width: 1298px) {
+    /* For mobile phones: */
+    header  {
+        width: 100%;
+       
+    }
+    #FondoPrincipal table {
+        width: 100%;
+        margin-bottom: 5%;
+        
+    }
+
+    #num, #opcion {
+        margin: 0 auto;
+        margin-left: 15%
+    }
+    
+}
+
+@media screen and (min-width: 1298px) {
+    /* For mobile phones: */
+    header {
+        width: 100%;
+    }
+
+    #FondoPrincipal table {
+        /* width: 100%;*/
+        margin-bottom: 2%;
+        float: left;
+    }
+    
+}
+
+/*@media screen and (max-width: 395px) {*/
+    /* For mobile phones: */
+    /*header {
+        width: 100%;
+    }
+
+    #FondoPrincipal table {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 800px) {*/
+    /* For mobile phones: */
+    /*header {
+        width: 100%;
+    }
+
+    #FondoPrincipal table, #infoC {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media  screen and (max-width: 700px) {*/
+    /* For mobile phones: */
+    /*header {
+        width: 100%;
+    }
+
+    #infoC{
+       
+       margin-right: 20px;
+    }
+    #num, #opcion{
+        margin: 0 auto;
+        margin-left: 15%
+    }
+}
+
+@media only screen and (min-width: 800px) {*/
+    /* For mobile phones: */
+    /*header {
+        width: 100%;
+    }
+
+    #infoC {
+        float: right;
+        padding-bottom:100px;
+    }
+
+    #num, #opcion {
+        margin: 0 auto;
+        margin-left: 15%
+    }
+}*/
+
+/*@media  screen and (max-width: 720px) {*/
+    /* For mobile phones: */
+    /*#header{
+        display: none;
+    }
+}*/
+
+
+/*@media only screen and (max-width: 720px) {*/
+    /* For mobile phones: */
+    /*#secondarycontent {
+        width: 0%;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 720px) {*/
+    /* For mobile phones: */
+    /*#primarycontent {
+        width: 100%;
+        margin: 0;
+    }
+}*/
